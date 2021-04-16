@@ -65,7 +65,7 @@ git -c core.quotepath=false -c log.showSignature=false checkout HEAD -- "$basepa
 echo
 echo "打包完毕,开始上传pgyer"
 
-curl -F "file=@$PROJECT_BUILD_DIR/TLauncher.ipa" -F '_api_key=b901e5e58539480d95f6316c489accfc' -F "buildInstallType=1" https://www.pgyer.com/apiv2/app/upload
+curl -F "file=@$PROJECT_BUILD_DIR/TLauncher.ipa" -F '_api_key=b901e5e58539480d95f6316c48923223' -F "buildInstallType=1" https://www.pgyer.com/apiv2/app/upload
 
 rm -rf "./$buildPath_rel.build/"
 
