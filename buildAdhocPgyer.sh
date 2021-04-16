@@ -2,12 +2,12 @@
 
 git pull
 
-pro_schema=TLauncher #应用名称
+pro_schema=MyApp #应用名称
 
 relVersion=7.0.0
 bundleVersion="$(date +%y%m%d%H%M)"
 
-bundleIdentifier=com.digitalchina.efuzhou
+bundleIdentifier=com.digitalchina.xxxx
 
 
 
